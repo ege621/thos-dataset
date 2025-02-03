@@ -1,15 +1,10 @@
 # THOS: A Two-Hand On-Skin Dynamic Gesture Dataset and Classification Network for HCI
-
-Welcome to the official repository for the **THOS dataset** and evaluation codes! This repository accompanies our paper: *THOS: A Two-Hand On-Skin Dynamic Gesture Dataset and Classification Network for Human-Computer Interaction*. The repository contains evaluation codes to experiment with our dataset and reproduce the results discussed in the paper.
-
 ---
+## Introduction
 
-## Repository Contents
-
-- **Evaluation Codes:** Python scripts to train and evaluate models using the THOS dataset.
-- **Models:** Implementations of the Transformer Encoder, BiLSTM, and THOSnet architectures.
-- **Utilities:** Helper scripts for preprocessing, metrics calculation, and visualization.
-- **Documentation:** Detailed instructions on how to use the evaluation codes.
+- This is the official repo for the Tensorflow implementation of "THOS: A Two-Hand On-Skin Dynamic Gesture Dataset and Classification Network for HCI"
+- THOS is the first dataset that solely conists of two-hand on-skin gestures, presented as landmarks
+- We also present THOSnet, a hybrid model based on transformer decoders and BiLSTM to classify two-hand gestures.
 
 ---
 
