@@ -7,7 +7,8 @@
 - We also present THOSnet, a hybrid model based on transformer decoders and BiLSTM to classify two-hand gestures.
 
 ---
-![GestureList](https://github.com/user-attachments/assets/cccbaa15-6340-49de-868f-691c36b0bf6f)
+![Image (18)](https://github.com/user-attachments/assets/edb19e27-e0ed-4b3f-9876-96e53d2ffb34)
+
 
 
 ## Dataset Access
