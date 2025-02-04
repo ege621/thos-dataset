@@ -13,7 +13,7 @@
 
 ## Dataset Access
 
-The **THOS dataset** is available for download via [Google Drive](https://drive.google.com/drive/folders/1JLaI7e01bHce2x0jsbi_Ql_fiOTsSmVk?usp=sharing). The processed_datasets folder includes the augmented and non-augmented data for all three subjects in .npy format. In total, there are 3,096 non-augmented samples across nine two-hand on-skin gesture classes.
+The **THOS dataset** is available for download via [Google Drive](https://drive.google.com/drive/folders/1yynw27QOgJgfaQRcwvHpx7KFkSsOYKZE?usp=drive_link). The processed_datasets folder includes the augmented and non-augmented data for all three subjects in .npy format. In total, there are 3,096 non-augmented samples across nine two-hand on-skin gesture classes.
 
 
 
