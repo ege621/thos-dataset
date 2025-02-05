@@ -62,3 +62,8 @@ Ensure you have the following installed:
 - You can split the jupyter notebook to multiple cells if desired.
 - The code iterates over a hyperparameter tuning loop, in which the hyperparameters can be manually entered.
 - The code supports the utilization of GPUs. Memory growth is also enabled. If your GPU has a compute capability greater than 7, you can also enable mixed precision.
+
+## Reference
+Please cite our paper if you use the THOS dataset or THOSnet model in your research.
+
+`Waiting for publication`
