@@ -28,6 +28,26 @@ The **THOS dataset** is available for download via [Google Drive](https://drive.
 
 Outisde of the processed_datasets folder, `dataset_20240709_X_3096.npy` and `dataset_20240709_y_3096.npy` consist of the entire non-augmented dataset. The first %60 percent of these arrays are the first subject, the next %20 is the second, and the remaining is the third subject. X should be in the shape of (3096,30,126) and y should be in the shape of (3096,9).
 
+${ROOT}
+|-- processed_datasets
+|   |-- dataset_1.npy
+|   |-- dataset_2.npy
+|   |-- dataset_3.npy
+|   |-- dataset_4.npy
+|   |-- dataset_5.npy
+|   |-- dataset_6.npy
+|   |-- dataset_7.npy
+|   |-- dataset_8.npy
+|   |-- dataset_9.npy
+|   |-- dataset_10.npy
+|   |-- dataset_11.npy
+|   |-- dataset_12.npy
+|-- original_data.npy
+|-- original_labels.npy
+|-- THOSnet_train.ipynb
+|-- README.md
+
+
 
 ## Getting Started
 
