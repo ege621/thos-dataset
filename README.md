@@ -30,20 +30,20 @@ Outisde of the processed_datasets folder, `dataset_20240709_X_3096.npy` and `dat
 ```
 ${ROOT}
 |-- processed_datasets
-|   |-- dataset_1.npy
-|   |-- dataset_2.npy
-|   |-- dataset_3.npy
-|   |-- dataset_4.npy
-|   |-- dataset_5.npy
-|   |-- dataset_6.npy
-|   |-- dataset_7.npy
-|   |-- dataset_8.npy
-|   |-- dataset_9.npy
-|   |-- dataset_10.npy
-|   |-- dataset_11.npy
-|   |-- dataset_12.npy
-|-- original_data.npy
-|-- original_labels.npy
+|   |-- X_subject1_aug.npy
+|   |-- X_subject1_original.npy
+|   |-- X_subject2_aug.npy
+|   |-- X_subject2_original.npy
+|   |-- X_subject3_aug.npy
+|   |-- X_subject3_original.npy
+|   |-- y_subject1_aug.npy
+|   |-- y_subject1_original.npy
+|   |-- y_subject2_aug.npy
+|   |-- y_subject2_original.npy
+|   |-- y_subject3_aug.npy
+|   |-- y_subject3_original.npy
+|-- dataset_20240709_X_3096.npy
+|-- dataset_20240709_y_3096.npy
 |-- THOSnet_train.ipynb
 |-- README.md
 ```
