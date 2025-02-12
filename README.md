@@ -61,6 +61,7 @@ Ensure you have the following installed:
 - To utilize GPUs for training, check the `Python / Cuda / cudnn / Tensorflow` compatibility table [here](https://www.tensorflow.org/install/source#gpu)
 - We highly recommend creating a virtual environment with the below configurations. This is the same configuration that we used for evaluation and training.
 
+Commands below work on the Anaconda prompt on Windows, and on the regular Linux terminal, and thus, MacOS.
 Create the virtual environment with Python version 3.8
 ```
 conda create -n THOSenv python=3.8
@@ -82,6 +83,10 @@ Check if the installation is successful and your GPUs are showing up.
 python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
 
+If for any reasyon your GPUs are not showing up, or the cuda installation in the virtual environment conflicts with an already existing NVIDIA driver, run the following command to only consider the cuda version present within the virtual environment, bypassing the system installation of cuda. This might especially be the case if you are accessing a cluster that is used by multiple people. 
+```
+export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+```
 
 ## Running the code
 - You can split the jupyter notebook to multiple cells if desired.
