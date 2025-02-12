@@ -64,7 +64,7 @@ Ensure you have the following installed:
 Create the virtual environment with Python version 3.8
 ```
 conda create -n THOSenv python=3.8
-conda activate tf_gpu_env
+conda activate THOSenv
 ```
 
 Install cuda version 11.2 and cudnn version 8.1
