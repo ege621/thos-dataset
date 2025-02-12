@@ -57,6 +57,29 @@ ${ROOT}
 Ensure you have the following installed:
 - TensorFlow > 2.4.0 (The MultiHeadAttention block was introduced at this version.)
 - Mediapipe is **not** necessary to go through the notebook, since the landmarks are already extracted.
+- The latest version of Numpy might not be compatible with the specific version of Tensorflow that you use. This will mostly throw errors regarding `protobuf`.
+- To utilize GPUs for training, check the `Python / Cuda / cudnn / Tensorflow` compatibility table [here](https://www.tensorflow.org/install/source#gpu)
+- We highly recommend creating a virtual environment with the below configurations. This is the same configuration that we used for evaluation and training.
+
+Create the virtual environment with Python version 3.8
+```
+conda create -n THOSenv python=3.8
+conda activate tf_gpu_env
+```
+
+Install cuda version 11.2 and cudnn version 8.1
+`conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1`
+
+Upgrade pip, and install Tensorflow version 2.10. Depending on your kernel, double equal symbol might give an error so use a single equal symbol or put tensorflow==2.10.* in quotations " ". 
+```
+pip install --upgrade pip
+pip install tensorflow==2.10.*
+```
+
+Check if the installation is successful and your GPUs are showing up.
+`python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"`
+
+
 
 ## Running the code
 - You can split the jupyter notebook to multiple cells if desired.
