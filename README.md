@@ -68,8 +68,9 @@ conda activate THOSenv
 ```
 
 Install cuda version 11.2 and cudnn version 8.1
-`conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1`
-
+```
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1
+```
 Upgrade pip, and install Tensorflow version 2.10. Depending on your kernel, double equal symbol might give an error so use a single equal symbol or put tensorflow==2.10.* in quotations " ". 
 ```
 pip install --upgrade pip
@@ -77,8 +78,9 @@ pip install tensorflow==2.10.*
 ```
 
 Check if the installation is successful and your GPUs are showing up.
-`python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"`
-
+```
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+```
 
 
 ## Running the code
