@@ -1,4 +1,4 @@
-# THOS: A Two-Hand On-Skin Dynamic Gesture Dataset and Classification Network for HCI
+# Two-Hand On-Skin Gesture Recognition: A Dataset and Classification Network for Enhanced Human-Computer Interaction
 ---
 ## Introduction
 
