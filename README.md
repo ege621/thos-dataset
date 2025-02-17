@@ -19,6 +19,7 @@ The **THOS dataset** is available for download via [Google Drive](https://drive.
 
 ### Dataset Features
 - Hand landmarks extracted using [Mediapipe](https://google.github.io/mediapipe/).
+- See [Mediapipe Hands](https://mediapipe.readthedocs.io/en/latest/solutions/hands.html) for a detailed documentation.
 - Includes gestures requiring physical contact between both hands.
 - Formatted as lightweight 3D arrays for compatibility with various ML frameworks.
 
@@ -92,7 +93,8 @@ export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 - You can split the jupyter notebook to multiple cells if desired.
 - The code iterates over a hyperparameter tuning loop, in which the hyperparameters can be manually entered.
 - The code supports the utilization of GPUs. Memory growth is also enabled. If your GPU has a compute capability greater than 7, you can also enable mixed precision.
-
+- The nested for-loop in the code should not cause a compute bottleneck, since the code should be training-bound and epoch iterations take a considerably larger time than the for loop iterations.
+- The dataset can easily be cached to system memory on most mid-tier rigs. Use a lower batch size if you encounter any OOM (Out of memory) errors during training.
 ## Reference
 Please cite our paper if you use the THOS dataset or THOSnet model in your research.
 
