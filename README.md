@@ -2,7 +2,7 @@
 ---
 ## Introduction
 
-- This is the official repo for the Tensorflow implementation of "THOS: A Two-Hand On-Skin Dynamic Gesture Dataset and Classification Network for HCI"
+- This is the official repo for the Tensorflow implementation of "Two-Hand On-Skin Gesture Recognition: A Dataset and Classification Network for Enhanced Human-Computer Interaction"
 - THOS is the first dataset that solely conists of two-hand on-skin gestures, presented as landmarks
 - We also present THOSnet, a hybrid model based on transformer decoders and BiLSTM to classify two-hand gestures.
 
