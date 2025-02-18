@@ -96,7 +96,8 @@ export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 - The nested for-loop in the code should not cause a compute bottleneck, since the code should be training-bound and epoch iterations take a considerably larger time than the for loop iterations.
 - The dataset can easily be cached to system memory on most mid-tier rigs. Use a lower batch size if you encounter any OOM (Out of memory) errors during training.
 
-![Untitled](https://github.com/user-attachments/assets/e69904de-5841-49d2-b46b-a9d496aa1694)
+This repo implements THOSnet on the THOS dataset.
+![Gesture user study roadmap - Frame 2](https://github.com/user-attachments/assets/b8c98399-3443-472c-8d68-006237ec11f6)
 
 
 ## Reference
