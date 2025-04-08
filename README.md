@@ -3,7 +3,7 @@
 ## Introduction
 
 - This is the official repo for the Tensorflow implementation of "Two-Hand On-Skin Gesture Recognition: A Dataset and Classification Network for Enhanced Human-Computer Interaction"
-- THOS is the first dataset that solely conists of two-hand on-skin gestures, presented as landmarks
+- THOS is the first dataset that solely conists of two-hand on-skin gestures, presented as landmarks.
 - We also present THOSnet, a hybrid model based on transformer decoders and BiLSTM to classify two-hand gestures.
 
 ---
@@ -21,7 +21,7 @@ The **THOS dataset** is available for download via [Google Drive](https://drive.
 - Hand landmarks extracted using [Mediapipe](https://google.github.io/mediapipe/).
 - See [Mediapipe Hands](https://mediapipe.readthedocs.io/en/latest/solutions/hands.html) for a detailed documentation.
 - Includes gestures requiring physical contact between both hands.
-- Formatted as lightweight 3D arrays for compatibility with various ML frameworks.
+- Formatted as a lightweight 3D array for compatibility with various ML models.
 
 ---
 
