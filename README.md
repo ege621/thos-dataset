@@ -21,6 +21,8 @@ The Gesture_X predictions you see below should be treated as Gesture_(X-1) accor
 
 The **THOS dataset** is available for download via [Google Drive](https://drive.google.com/drive/folders/1yynw27QOgJgfaQRcwvHpx7KFkSsOYKZE?usp=drive_link). The processed_datasets folder includes the augmented and non-augmented data for all three subjects in .npy format. In total, there are 3,096 non-augmented samples across nine two-hand on-skin gesture classes.
 
+We also provide the pretrained model weights with the best hyperparameters in the drive link, as well as the full version of the classification demo above.
+
 ---
 
 ### Dataset Features
