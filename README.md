@@ -40,6 +40,8 @@ Outisde of the processed_datasets folder, `dataset_20240709_X_3096.npy` and `dat
 Kindly follow the below ${ROOT} folder structure while implementing this repository.
 ```
 ${ROOT}
+|-- models
+|   |-- thosnet_weights.h5
 |-- processed_datasets
 |   |-- X_subject1_aug.npy
 |   |-- X_subject1_original.npy
@@ -56,6 +58,7 @@ ${ROOT}
 |-- dataset_20240709_X_3096.npy
 |-- dataset_20240709_y_3096.npy
 |-- THOSnet_train.ipynb
+|-- And other .ipynb files
 |-- README.md
 ```
 
