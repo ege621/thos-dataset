@@ -72,7 +72,7 @@ Ensure you have the following installed:
 - The latest version of Numpy might not be compatible with the specific version of Tensorflow that you use. This will mostly throw errors regarding `protobuf`.
 - To utilize GPUs for training, check the `Python / Cuda / cudnn / Tensorflow` compatibility table [here](https://www.tensorflow.org/install/source#gpu)
 - We highly recommend creating a virtual environment with the below configurations. This is the same configuration that we used for evaluation and training.
-
+- **IMPORTANT NOTE:** If you want to run the real time predictions code, you might run into issues regarding version conflicts between mediapipe and tensorflow through protobuf. If this happens. Please adjust your library versions so there is no conflict because mediapipe asks for a very specific version of numpy, which asks for a very specific version of protobuf.
 Commands below work on the Anaconda prompt on Windows, and on the regular Linux terminal, and thus, MacOS.
 Create the virtual environment with Python version 3.8
 ```
