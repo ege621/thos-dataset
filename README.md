@@ -111,10 +111,10 @@ This repo implements THOSnet on the THOS dataset. Here is the network architectu
 ![Gesture user study roadmap - Frame 2](https://github.com/user-attachments/assets/b8c98399-3443-472c-8d68-006237ec11f6)
 
 
-## Reference
+# Reference
 Please cite our paper if you use the THOS dataset or THOSnet model in your research.
 
-# Bibtex format
+## Bibtex format
 `
 @article{THOS,
   author  = {Keskin, Ege and Özcan, Oğuzhan and Yemez, Yücel},
@@ -127,5 +127,5 @@ Please cite our paper if you use the THOS dataset or THOSnet model in your resea
 }
 `
 
-# ACM format
+## ACM format
 `Keskin, E., Özcan, O. & Yemez, Y. Two-hand on-skin gesture recognition: a dataset and classification network for enhanced human–computer interaction. Vis Comput (2025). https://doi.org/10.1007/s00371-025-04125-y`
