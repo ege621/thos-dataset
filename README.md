@@ -113,6 +113,17 @@ This repo implements THOSnet on the THOS dataset. Here is the network architectu
 
 ## Reference
 Please cite our paper if you use the THOS dataset or THOSnet model in your research.
+`
+@article{THOS,
+  author  = {Keskin, Ege and Özcan, Oğuzhan and Yemez, Yücel},
+  title   = {Two-hand on-skin gesture recognition: a dataset and classification network for enhanced human--computer interaction},
+  journal = {The Visual Computer},
+  year    = {2025},
+  doi     = {10.1007/s00371-025-04125-y},
+  url     = {https://doi.org/10.1007/s00371-025-04125-y},
+  note    = {Published online: 02 Aug 2025}
+}
+`
 
-BibTex citation will soon be added.
+
 `Keskin, E., Özcan, O. & Yemez, Y. Two-hand on-skin gesture recognition: a dataset and classification network for enhanced human–computer interaction. Vis Comput (2025). https://doi.org/10.1007/s00371-025-04125-y`
